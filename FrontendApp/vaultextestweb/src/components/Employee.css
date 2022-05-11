@@ -1,0 +1,32 @@
+
+.tablestyle {
+  display: block flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  margin: 1rem 1rem;
+  border-radius: 12px;
+  background-color: #a6a3a3;
+}
+
+.tableHeader th {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+  flex: 1;
+  margin: 0.5rem 1rem;
+  color: white;
+}
+.tableRow tr {
+    color: #3a3a3a;
+    font-size: 1rem;
+    flex: 1;
+    margin: 1 1.5rem;
+    color: white;
+  }
+
+@media (min-width: 580px) {
+  .tableHeader th {
+    font-size: 1.25rem;
+  }
+}
